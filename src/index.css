@@ -1,0 +1,16 @@
+* {
+  font-family: "IBM Plex Mono", monospace;
+  margin: 0;
+}
+
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+  --lightGreen: #B7E4C7;
+  --mediumGreen: #52B788;
+  --darkGreen: #1B4332;
+}
+
+body {
+  background-color: var(--lightGreen);
+}
