@@ -13,4 +13,5 @@
 
 body {
   background-color: var(--lightGreen);
+  padding: 24px;
 }

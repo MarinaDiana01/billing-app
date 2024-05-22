@@ -1,0 +1,27 @@
+.billing-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.billing-result:first-child {
+  margin-bottom: 24px;
+}
+
+.billing-result-heading {
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.billing-result-sub-heading {
+  color: var(--mediumGreen);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.billing-result-number {
+  font-size: 20px;
+  color: var(--lightGreen);
+}

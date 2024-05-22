@@ -1,0 +1,25 @@
+.billing-stats-element {
+  margin-bottom: 18px;
+  background-color: var(--darkGreen);
+  border-radius: 16px;
+  width: 100%;
+}
+
+.billing-stats-element:last-child {
+  margin: 0;
+}
+
+.billing-stats-element-value {
+  display: block;
+  margin-top: 8px;
+  font-weight: 500;
+  color: var(--lightGreen);
+  font-weight: 100;
+}
+
+@media screen and (min-width: 768px) {
+  .billing-stats-element {
+    width: 200px;
+    margin-bottom: 0px;
+  }
+}

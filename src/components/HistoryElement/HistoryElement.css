@@ -1,0 +1,17 @@
+.billing-history-element {
+  color: var(--white);
+  font-weight: bold;
+  font-size: 16px;
+  background-color: var(--darkGreen);
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: 15px;
+  margin-right: 8px;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .billing-history-element {
+    font-size: 16px;
+  }
+}
